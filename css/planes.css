@@ -1,0 +1,138 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+body{
+	background: #DFDCDC;
+}
+
+@media(max-width: 1300px){
+	body{
+		background-color: orange;
+	}
+}
+@media(max-width: 1000px){
+	body{
+		background-color: red;
+	}
+}
+@media(max-width: 700px){
+	body{
+		background-color: blue;
+	}
+}
+
+.logo{
+	background: white;
+	padding: 3px;
+}
+.field{
+	border-color: #F00;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 25px;
+
+
+}
+.field legend{
+	text-align: left;
+}
+.footer{
+	clear: both;
+	width: 100%
+	margin:auto;
+	background: black;
+	color: #fff;
+	height: 20vh;
+	border-top: 10px solid crimson;
+	
+}
+.footer, .container{
+	font-size: 20px;
+	width: 100%;
+	margin-top: 45px;
+	
+}
+.acept .boton{
+	width: 50%;
+	margin:auto;
+	margin-bottom: 25px;
+	margin-left: 500px;
+}
+.container1{
+	margin-left: 450px;
+}
+.container{
+	padding: 10px;
+	margin-top: 10px;
+}
+.container2 .field1{
+	border-color: #F00;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 25px;
+}
+
+.cent{
+	margin: auto;
+	margin-bottom: auto;
+	padding: 10px;
+	text-align: center;
+}
+select, form, option, input{
+	margin: 20px; 
+	margin-top: 10px;
+	padding: 5px;
+}
+legend{
+	margin: 5px;
+	margin-top: 5px;
+}
+.tit{
+	margin: 15px;
+	margin-top: 3px;
+}
+.acept{
+	margin-left: 25%;
+}
+.boton{
+	margin-left: 25%;
+}
+
+.fot{
+	font-size: 20px;
+	margin-left: 20%;
+}
+.iman{
+	margin-left: 20%;
+}
+.view{
+	font-size: 15px;
+	color: #AAA7A7;
+}
+.titulares{
+	color: #FD052E;
+}
+
+.iconos{
+	position: fixed;
+left: 0;
+z-index: 3000;
+top:150px;
+}
+a:hover img{
+	-moz-transform: scale(2) rotate(30deg);
+-webkit-transform: scale(2) rotate(30deg);
+-o-transform: scale(2) rotate(30deg);
+-ms-transform: scale(2) rotate(30deg);
+transform: scale(2) rotate(30deg);
+
+-webkit-transition: all 1000ms ease-in-out;
+-moz-transition: all 1000ms ease-in-out;
+-ms-transition: all 1000ms ease-in-out;
+-o-transition: all 1000ms ease-in-out;
+transition: all 1000ms ease-in-out;
+}
+
