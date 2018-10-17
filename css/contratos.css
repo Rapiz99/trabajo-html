@@ -9,17 +9,17 @@ body{
 
 @media(max-width: 1300px){
 	body{
-		background-color: orange;
+		background-color: white;
 	}
 }
 @media(max-width: 1000px){
 	body{
-		background-color: red;
+		background-color: white;
 	}
 }
 @media(max-width: 700px){
 	body{
-		background-color: blue;
+		background-color: white;
 	}
 }
 
@@ -36,13 +36,15 @@ body{
 
 table{
 
-	width: 50%;
-	margin: auto;
+	width: 96%;
+	margin: 10px;
 	margin-bottom: 25px;
 	padding: 15px;
 	padding-bottom: 20px;
 	border-bottom: 15px; 
 }
+
+
 
 .container{
 	margin: 10px;
@@ -54,7 +56,7 @@ table{
 	margin:auto;
 	background: black;
 	color: #fff;
-	height: 20vh;
+	height: 20%;
 	border-top: 10px solid crimson;
 	
 }
@@ -64,19 +66,20 @@ table{
 	margin-top: 45px;
 }
 .cajas{
-	margin-left: 559px;
+	margin-left: 30%;
 }
 .cajas .containets{
 	
 	display: inline-block;
 	background: gray;
-	width: 17%;
-	height: 10vh;
-	margin-left: 1px;
+	width: 30%;
+	height: 13vh;
+	margin-left: 10px;
 
 }
 .cajas .containets h1,h2{
 	float: left;
+	margin-left: 20px;
 	}
 	.cajas .containets .ver,.oran,.az{
 		border-right: 2px solid #fff;
@@ -84,23 +87,25 @@ table{
 	}
 	.ver{
 		color: #05F82D;
-		font-size: 45px;
+		font-size: 55px;
 	}
 	.oran{
 		color: #FA3F05;
-		font-size: 45px;
+		font-size: 55px;
 	}
 	.az{
 		color: #06F8E4;
-		font-size: 45px;
+		font-size: 55px;
 	}
 	h2{
 		color: white;
-		font-size: 20px;
-		margin-top: 35px;
+		font-size: 30px;
+		margin-top: 29px;
 		padding: 2px;
 	}
 	table{
+		margin:50px;
+		margin-left: 3%;
 		margin-top: 10px;
 	}
 	td,tr{
@@ -113,12 +118,12 @@ table{
 	}
 .sub{
 	margin-top: -35px;
-	margin-left:105px;
+	margin-left:12%;
 	font-size: 25px;
 	color:#FD052E;
 }
 .flecha{
-	margin-left: 53px;
+	margin-left: 100px;
 }
 .titu{
 	margin:20px;
@@ -126,33 +131,33 @@ table{
 .boton{
 	margin:10px;
 	padding: 10px;
-	margin-left: 70%;
+	margin-left: 85%;
 	background: #FD052E;
 	color: white;
 }
 
 .fooo{
 	font-size: 20px;
-	margin-left: 23%;
+	margin-left: 18%;
 }
 .foot{
-	margin-left: 23%;
+	margin-left: 18%;
 }
 
 a{
 	color: white;
 }
 .parti{
-	font-size: 20px;
+	font-size: 28px;
 	color: #FD052E;
-	margin-left: 10%;
+	margin-left: 24%;
 	margin-bottom: 10px;
 	font-weight: bold;
 }
 .empre{
-	font-size: 20px;
+	font-size: 28px;
 	color: #F2092F;
-	margin-left: 16%;
+	margin-left: 38%;
 	margin-bottom: 10px;
 }
 
@@ -178,3 +183,6 @@ transform: scale(2) rotate(30deg);
 transition: all 1000ms ease-in-out;
 }
 
+.neg{
+	font-size: 30px;
+}
